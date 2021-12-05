@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ababa Steak - Reserve</title>
+    <link href="//db.onlinewebfonts.com/c/c56754d51081528c5bd48dc76f580171?family=Humanst521+Lt+BT" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/3fd720312d86fc1944351c0219148484?family=Blackadder+ITC" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../css/reserve.css">
+</head>
+<body>
+    <div class="page">
+        <div class="title">
+            Ababa Steak <span>Reserve</span>
+            <div class="hr"></div>
+        </div>
+        <div class="sidebar">
+            <div class="hide">
+                <img src="../assets/menu.png" alt="">
+            </div>
+            <div class="header">
+                <div class="logo">
+                    <img src="../assets/logo.png" alt="">
+                </div>
+                <div class="navbar">
+                    <a href="home.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="promo.html">Promo</a>
+                    <a href="about.html">About Us</a>
+                    <a href="#" class="selectedNav">Reserve</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <button id="prev"><</button>
+                <a href="promo.html">
+                    <div class="images">
+                        <img src="../assets/offer1.jpg" alt="">
+                        <img src="../assets/offer2.jpg" alt="">
+                        <img src="../assets/offer3.jpg" alt="">
+                        <img src="../assets/offer4.jpg" alt="">
+                    </div>
+                </a>
+                <button id="next">></button>
+            </div>
+            <div class="form">
+                <form onsubmit="return validate()">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <p>:</p>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="field">
+                        <label for="phoneNum">Phone Number</label>
+                        <p>:</p>
+                        <input type="text" id="phoneNum">
+                    </div>
+                    <div class="field">
+                        <label for="person">Number Of Person</label>
+                        <p>:</p>
+                        <input type="number" id="person">
+                    </div>
+                    <div class="field">
+                        <label for="date">Date For Reservation</label>
+                        <p>:</p>
+                        <input type="date" id="dob">
+                    </div>
+                    <div class="field">
+                        <label for="date">Time For Reservation</label>
+                        <p>:</p>
+                        <input type="time" id="time">
+                    </div>
+                    <div class="field">
+                        <label for="coupon">Coupon Code</label>
+                        <p>:</p>
+                        <input type="text" id="coupon" placeholder="Optional">
+                    </div>
+                    <button type=submit>Reserve</button>
+                </form>
+            </div>
+            <div class="footer">
+                <div class="socials">
+                    <a href="https://facebook.com/" target="_blank"><img src="../assets/facebook.png" alt="FacebookLogo"></a>
+                    <a href="https://instagram.com/calvinalfredo._" target="_blank"><img src="../assets/instagram.png" alt="InstagramLogo"></a>
+                    <a href="https://linkedin.com/" target="_blank"><img src="../assets/linkedin.png" alt="LinkedInLogo"></a>
+                    <a href="https://youtube.com/" target="_blank"><img src="../assets/youtube.png" alt="YoutubeLogo"></a>
+                </div>
+                <p>Copyright &copy; 2021 - Ababa Steak | Web Design by <span id="orange-style">Calvin Alfrido</span></p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/validation.js"></script>
+</body>
+</html>
